@@ -24,6 +24,10 @@ letter-spacing: 0.64px;
 background-color: var(--OCEAN, #404BBF);
 }
 
+.list{
+font-style:italic;
+}
+
 .link{
     color: var(--IRIS, #4d5ae5);
     font-family: 'Raleway', sans-serif;
@@ -35,12 +39,23 @@ background-color: var(--OCEAN, #404BBF);
     text-decoration: none
 }
 
-.link:hover,
-.link:Active{
+.link2{
+    font-size:16px;
+    color: var(--SLATE, #434455);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link2:hover,
+.link2:Active{
     color: var(--OCEAN, #404bbf)
 }
 
-.list{
+.span{
+    color: var(--NAVY-BLUE, #2e2f42)
+}
+
+.link2{
     color: var(--NAVY-BLUE, #2e2f42);
     list-style: none;
     font-weight: 500;
@@ -134,7 +149,7 @@ background-color: var(--OCEAN, #404BBF);
     background-color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.span{
+.span2{
     color: var(--CLOUD, #f4f4fd)
 }
 
