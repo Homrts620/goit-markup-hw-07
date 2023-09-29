@@ -1,6 +1,7 @@
 Body{
     font-family: 'Roboto', sans-serif;
-    color: var(--navyblue, #2E2F42);
+    color: var(--SLATE, #434455);
+    background-color: var(--WHITE, #FFFFFF);
 }
 
 .filters-list{
@@ -10,15 +11,135 @@ color: var(--color-accent);
 .filter-button{
 background-color: var(--IRIS, #4D5AE5);
 font-family:inherit;
-font-family: Roboto;
+font-family:Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 24px
+line-height: 24px;
 letter-spacing: 0.64px;
 }
 
 .filter-button:hover,
 .filter-button:focus{
 background-color: var(--OCEAN, #404BBF);
+}
+
+.link{
+    color: var(--IRIS, #4d5ae5);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+.link:hover,
+.link:Active{
+    color: var(--OCEAN, #404bbf)
+}
+
+.list{
+    color: var(--NAVY-BLUE, #2e2f42);
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.span{
+    color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.link{
+    color: var(--SLATE, #434455);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.h1{
+    color: var(--WHITE, #ffffff);
+    background-color: var(--NAVY-BLUE, #2e2f42);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button{
+    background-color: var(--IRIS #4D5AE5);
+    background-color:hover: var(--OCEAN, #404BBF);
+    background-color:active: var(--OCEAN, #404BBF);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer
+}
+
+.h2{
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.p2{
+    color: var(--SLATE,  #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.h3{
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.h4{
+    color: var(--NAVY-BLUE, #2e2f42);
+    background-color: var(--WHITE, #FFFFFF);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.h5{
+    color: var(--NAVY-BLUE, #2e2f42);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.p3{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.foot{
+    background-color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.span{
+    color: var(--CLOUD, #f4f4fd)
+}
+
+.foot2{
+    color: var(--CLOUD, #F4F4FD);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
