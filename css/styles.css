@@ -1,3 +1,9 @@
+.Body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--SLATE, #434455);
+    background-color: var(--WHITE, #FFFFFF);
+}
+
 :root{
     --SLATE: #434455; 
     --NAVY-BLUE: #2E2F42;
@@ -5,12 +11,6 @@
     --OCEAN: #404BBF; 
     --CLOUD: #F4F4FD;
     --WHITE: #FFFFFF;
-}
-
-.Body{
-    font-family: 'Roboto', sans-serif;
-    color: var(--SLATE, #434455);
-    background-color: var(--WHITE, #FFFFFF);
 }
 
 .button{
@@ -47,15 +47,20 @@ background-color: var(--OCEAN, #404BBF);
 }
 
 .list{
-list-style: none;
+    list-style: none;
 }
 
 .listII{
-    text-decoration: none
+    text-decoration: none;
 }
 
 .listIII{
-    font-style:normal
+    font-style:normal;
+}
+
+.listIV{
+    list-style: none;
+    text-decoration: none;
 }
 
 .link{
@@ -71,7 +76,6 @@ list-style: none;
 
 .linkII{
     color: var(--NAVY-BLUE, #2e2f42);
-    text-decoration: none;
     list-style: none;
     font-weight: 500;
     font-size: 16px;
