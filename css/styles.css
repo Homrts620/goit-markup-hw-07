@@ -1,10 +1,10 @@
 :root{
-    --SLATE, #434455; 
-    --NAVY-BLUE, #2E2F42;
-    --IRIS, #4D5AE5; 
-    --OCEAN, #404BBF; 
-    --CLOUD, #F4F4FD;
-    --WHITE, #FFFFFF;
+    --SLATE: #434455; 
+    --NAVY-BLUE: #2E2F42;
+    --IRIS: #4D5AE5; 
+    --OCEAN: #404BBF; 
+    --CLOUD: #F4F4FD;
+    --WHITE: #FFFFFF;
 }
 
 .Body{
@@ -47,14 +47,18 @@ list-style: none;
 
 .linkII{
     color: var(--NAVY-BLUE, #2e2f42);
-    background-color:hover: var(--OCEAN, #404bbf);
-    background-color:active: var(--OCEAN, #404bbf);
     text-decoration: none;
     list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.linkII:hover,
+.linkII:active{
+    background-color: var(--OCEAN, #404bbf);
+    background-color: var(--OCEAN, #404bbf);
 }
 
 .linkIII{
@@ -66,8 +70,8 @@ list-style: none;
 }
 .linkIII:hover,
 .linkIII:active{
-    background-color:hover: var(--OCEAN, #404bbf);
-    background-color:active: var(--OCEAN, #404bbf);
+    background-color: var(--OCEAN, #404bbf);
+    background-color: var(--OCEAN, #404bbf);
 }
 
 
