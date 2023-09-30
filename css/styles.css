@@ -7,7 +7,7 @@
     --WHITE: #FFFFFF;
 }
 
-.body{
+body{
     font-family: 'Roboto', 'sans-serif';
     color: var(--SLATE, #434455);
     background-color: var(--WHITE, #FFFFFF);
