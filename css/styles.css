@@ -7,20 +7,20 @@
     --WHITE, #FFFFFF;
 }
 
-Body{
+.Body{
     font-family: 'Roboto', sans-serif;
     color: var(--SLATE, #434455);
     background-color: var(--WHITE, #FFFFFF);
 }
 
-button{
+.button{
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: var(--IRIS, #4d5ae5);
-background-color: var(--CLOUD, #f4f4fd);
+background-color: var(--IRIS, #4d5ae5);
+color: var(--CLOUD, #f4f4fd);
 cursor:pointer;
 }
 
@@ -32,10 +32,6 @@ background-color: var(--OCEAN, #404BBF);
 
 .list{
 list-style: none;
-}
-
-.adress{
-font-style:normal
 }
 
 .link{
@@ -63,12 +59,15 @@ font-style:normal
 
 .link3{
     color: var(--SLATE, #434455);
-    background-color:hover: var(--OCEAN, #404bbf);
-    background-color:active: var(--OCEAN, #404bbf);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+.link3:hover,
+.link3:active{
+    background-color:hover: var(--OCEAN, #404bbf);
+    background-color:active: var(--OCEAN, #404bbf);
 }
 
 
