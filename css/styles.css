@@ -7,7 +7,7 @@
     --WHITE: #FFFFFF;
 }
 
-.Body{
+.body{
     font-family: 'Roboto', 'sans-serif';
     color: var(--SLATE, #434455);
     background-color: var(--WHITE, #FFFFFF);
@@ -30,7 +30,7 @@ color: var(--WHITE, #FFFFFF);
 background-color: var(--OCEAN, #404BBF);
 }
 
-.buttonII{
+.button-ii{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -50,15 +50,15 @@ background-color: var(--OCEAN, #404BBF);
     list-style: none;
 }
 
-.listII{
+.list-ii{
     text-decoration: none;
 }
 
-.listIII{
+.list-iii{
     font-style:normal;
 }
 
-.listIV{
+.list-iiii{
     list-style: none;
     text-decoration: none;
 }
@@ -74,7 +74,7 @@ background-color: var(--OCEAN, #404BBF);
     text-decoration: none;
 }
 
-.linkII{
+.link-ii{
     color: var(--NAVY-BLUE, #2e2f42);
     list-style: none;
     font-weight: 500;
@@ -83,11 +83,11 @@ background-color: var(--OCEAN, #404BBF);
     letter-spacing: 0.02em;
 }
 
-.linkII:hover, .linkII:active{
+.link-ii:hover, .link-ii:active{
     background-color: var(--OCEAN, #404BBF);
 }
 
-.linkIII{
+.link-iii{
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 500;
@@ -95,12 +95,12 @@ background-color: var(--OCEAN, #404BBF);
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.linkIII:hover, .linkIII:active{
+.link-iii:hover, .link-iii:active{
     background-color: var(--OCEAN, #404bbf);
 }
 
 
-.secI{
+.sec-i{
     background-color: var(--NAVY-BLUE, #2e2f42);
 }
 
@@ -108,18 +108,18 @@ background-color: var(--OCEAN, #404BBF);
     color: var(--NAVY-BLUE, #2e2f42)
 }
 
-.spanII{
+.span-ii{
     color: var(--CLOUD, #f4f4fd)
 }
 
-.pII{
+.p-ii{
     color: var(--SLATE,  #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.headI{
+.head-i{
     color: var(--WHITE, #ffffff);
     background-color: var(--NAVY-BLUE, #2e2f42);
     font-size: 56px;
@@ -128,7 +128,7 @@ background-color: var(--OCEAN, #404BBF);
     letter-spacing: 0.02em;
 }
 
-.hII{
+.h-ii{
     color: var(--NAVY-BLUE, #2e2f42);
     font-weight: 500;
     font-size: 20px;
@@ -136,7 +136,7 @@ background-color: var(--OCEAN, #404BBF);
     letter-spacing: 0.02em;
 }
 
-.hIII{
+.h-iii{
     color: var(--NAVY-BLUE, #2e2f42);
     font-size: 36px;
     line-height: 1.11;
@@ -145,7 +145,7 @@ background-color: var(--OCEAN, #404BBF);
     text-transform: capitalize;
 }
 
-.hIV{
+.h-iiii{
     color: var(--NAVY-BLUE, #2e2f42);
     background-color: var(--CLOUD, #F4F4FD);
     font-size: 36px;
@@ -159,7 +159,7 @@ background-color: var(--OCEAN, #404BBF);
     background-color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.footII{
+.foot-ii{
     color: var(--CLOUD, #F4F4FD);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -169,6 +169,6 @@ background-color: var(--OCEAN, #404BBF);
     background-color: var(--WHITE, #FFFFFF);
 }
 
-.colorII{
+.color-ii{
     background-color: var(--CLOUD, #F4F4FD);
 }
