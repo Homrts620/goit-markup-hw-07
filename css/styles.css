@@ -1,36 +1,41 @@
+:root{
+    --SLATE, #434455; 
+    --NAVY-BLUE, #2E2F42;
+    --IRIS, #4D5AE5; 
+    --OCEAN, #404BBF; 
+    --CLOUD, #F4F4FD;
+    --WHITE, #FFFFFF;
+}
+
 Body{
     font-family: 'Roboto', sans-serif;
     color: var(--SLATE, #434455);
     background-color: var(--WHITE, #FFFFFF);
 }
 
-:root {
-    --color: #434455, #2E2F42, #4D5AE5, #404BBF, #F4F4FD;
-    --background-color: #FFFFFF, #F4F4FD, #2E2F42;
-}
-
-.filters-list{
-color: var(--color-accent);
-}
-
-.filter-button{
-background-color: var(--IRIS, #4D5AE5);
-font-family:inherit;
-font-family:Roboto;
-font-size: 16px;
-font-style: normal;
+button{
+font-family: "Roboto", sans-serif;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.64px;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--IRIS, #4d5ae5);
+background-color: var(--CLOUD, #f4f4fd);
+cursor:pointer;
 }
 
-.filter-button:hover,
-.filter-button:focus{
+.button:hover,
+.button:focus{
+color: var(--WHITE, #FFFFFF);
 background-color: var(--OCEAN, #404BBF);
 }
 
 .list{
 list-style: none;
+}
+
+.adress{
+font-style:normal
 }
 
 .link{
@@ -41,7 +46,7 @@ list-style: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--IRIS, #4d5ae5);
-    text-decoration: none
+    text-decoration: none;
 }
 
 .link2{
@@ -58,10 +63,14 @@ list-style: none;
 
 .link3{
     color: var(--SLATE, #434455);
+    background-color:hover: var(--OCEAN, #404bbf);
+    background-color:active: var(--OCEAN, #404bbf);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
 
 .sec1{
     background-color: var(--NAVY-BLUE, #2e2f42);
