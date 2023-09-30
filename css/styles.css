@@ -8,7 +8,7 @@
 }
 
 .Body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--SLATE, #434455);
     background-color: var(--WHITE, #FFFFFF);
 }
@@ -45,7 +45,7 @@ list-style: none;
     text-decoration: none;
 }
 
-.link2{
+.linkII{
     color: var(--NAVY-BLUE, #2e2f42);
     background-color:hover: var(--OCEAN, #404bbf);
     background-color:active: var(--OCEAN, #404bbf);
@@ -57,21 +57,21 @@ list-style: none;
     letter-spacing: 0.02em;
 }
 
-.link3{
+.linkIII{
     color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.link3:hover,
-.link3:active{
+.linkIII:hover,
+.linkIII:active{
     background-color:hover: var(--OCEAN, #404bbf);
     background-color:active: var(--OCEAN, #404bbf);
 }
 
 
-.sec1{
+.secI{
     background-color: var(--NAVY-BLUE, #2e2f42);
 }
 
@@ -79,30 +79,18 @@ list-style: none;
     color: var(--NAVY-BLUE, #2e2f42)
 }
 
-.span2{
+.spanII{
     color: var(--CLOUD, #f4f4fd)
 }
 
-.button{
-    background-color: var(--IRIS #4D5AE5);
-    background-color:hover: var(--OCEAN, #404BBF);
-    background-color:active: var(--OCEAN, #404BBF);
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer
-}
-
-.p2{
+.pII{
     color: var(--SLATE,  #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.h1{
+.headI{
     color: var(--WHITE, #ffffff);
     background-color: var(--NAVY-BLUE, #2e2f42);
     font-size: 56px;
@@ -111,7 +99,7 @@ list-style: none;
     letter-spacing: 0.02em;
 }
 
-.h2{
+.hII{
     color: var(--NAVY-BLUE, #2e2f42);
     font-weight: 500;
     font-size: 20px;
@@ -119,7 +107,7 @@ list-style: none;
     letter-spacing: 0.02em;
 }
 
-.h3{
+.hIII{
     color: var(--NAVY-BLUE, #2e2f42);
     font-size: 36px;
     line-height: 1.11;
@@ -128,7 +116,7 @@ list-style: none;
     text-transform: capitalize;
 }
 
-.h4{
+.hIV{
     color: var(--NAVY-BLUE, #2e2f42);
     background-color: var(--WHITE, #FFFFFF);
     font-size: 36px;
@@ -142,7 +130,7 @@ list-style: none;
     background-color: var(--NAVY-BLUE, #2e2f42);
 }
 
-.foot2{
+.footII{
     color: var(--CLOUD, #F4F4FD);
     line-height: 1.5;
     letter-spacing: 0.02em;
