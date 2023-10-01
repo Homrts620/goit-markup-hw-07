@@ -180,9 +180,9 @@ cursor:pointer;
 }
 
 .color{
-    background-color: var(--WHITE, #FFFFFF);
+    background-color: #FFFFFF;
 }
 
 .color-ii{
-    background-color: var(--CLOUD, #F4F4FD);
+    background-color: #F4F4FD;
 }
