@@ -24,11 +24,7 @@ background-color: var(--CLOUD, #f4f4fd);
 cursor:pointer;
 }
 
-.button:hover{
-    color: var(--WHITE, #FFFFFF);
-    background-color: var(--OCEAN, #404BBF);
-}
-
+.button:hover
 .button:focus{
     color: var(--WHITE, #FFFFFF);
     background-color: var(--OCEAN, #404BBF);
@@ -45,10 +41,7 @@ cursor:pointer;
     cursor:pointer;
     }
 
-.buttonII:hover{
-    background-color: var(--OCEAN, #404BBF);
-}
-
+.buttonII:hover
 .buttonII:focus{
     background-color: var(--OCEAN, #404BBF);
 }
@@ -92,11 +85,9 @@ cursor:pointer;
     letter-spacing: 0.02em;
 }
 
-.link-i:hover{
+.link-i:hover
+.link-i:focus{
     background-color: var(--OCEAN, #404BBF);
-}
-
-.link-i:focus{background-color: var(--OCEAN, #404BBF);
 }
 
 .link-ii{
@@ -106,7 +97,8 @@ cursor:pointer;
     letter-spacing: 0.02em;
 }
 
-.link-ii:hover, .link-ii:focus{
+.link-ii:hover
+.link-ii:focus{
     background-color: var(--OCEAN, #404BBF);
 }
 
