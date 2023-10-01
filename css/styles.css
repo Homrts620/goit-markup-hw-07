@@ -81,6 +81,7 @@ background-color: var(--OCEAN, #404BBF);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .link-sec:hover, .link-sec:focus{
