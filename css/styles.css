@@ -46,11 +46,11 @@ cursor:pointer;
     }
 
 .button-ii:hover{
-    background-color: var(--OCEAN, #404BBF);
+    background-color: #404BBF;
 }
 
 .button-ii:focus{
-    background-color: var(--OCEAN, #404BBF);
+    background-color: #404BBF;
 }
 
 .list{
