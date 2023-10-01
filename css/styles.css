@@ -24,10 +24,14 @@ background-color: var(--CLOUD, #f4f4fd);
 cursor:pointer;
 }
 
-.button:hover
+.button:hover{
+    color: var(--WHITE, #FFFFFF);
+    background-color: var(--OCEAN, #404BBF);
+}
+
 .button:focus{
-    color: var(#FFFFFF);
-    background-color: var(#404BBF);
+    color: var(--WHITE, #FFFFFF);
+    background-color: var(--OCEAN, #404BBF);
 }
 
 .button-ii{
@@ -41,9 +45,12 @@ cursor:pointer;
     cursor:pointer;
     }
 
-.buttonII:hover
-.buttonII:focus{
-    background-color: var(#404BBF);
+.buttonii:hover{
+    background-color: var(--OCEAN, #404BBF);
+}
+
+.buttonii:focus{
+    background-color: var(--OCEAN, #404BBF);
 }
 
 .list{
@@ -85,9 +92,12 @@ cursor:pointer;
     letter-spacing: 0.02em;
 }
 
-.link-i:hover,
+.link-i:hover{
+    background-color: var(--OCEAN, #404BBF);
+}
+
 .link-i:focus{
-    background-color: var(#404BBF);
+    background-color: var(--OCEAN, #404BBF);
 }
 
 .link-ii{
@@ -97,9 +107,12 @@ cursor:pointer;
     letter-spacing: 0.02em;
 }
 
-.link-ii:hover,
+.link-ii:hover{
+    background-color: var(--OCEAN, #404BBF);
+}
+
 .link-ii:focus{
-    background-color: var(#404BBF);
+    background-color: var(--OCEAN, #404BBF);
 }
 
 .sec-i{
