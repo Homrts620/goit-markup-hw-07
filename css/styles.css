@@ -76,10 +76,12 @@ background-color: var(--OCEAN, #404BBF);
 
 .link-sec{
     color: var(--NAVY-BLUE, #2e2f42);
+    list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .link-sec:hover, .link-sec:focus{
