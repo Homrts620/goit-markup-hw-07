@@ -63,7 +63,7 @@ background-color: var(--OCEAN, #404BBF);
     text-decoration: none;
 }
 
-.link{
+.logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -74,20 +74,21 @@ background-color: var(--OCEAN, #404BBF);
     text-decoration: none;
 }
 
-.link-ii{
+.link{
     color: var(--NAVY-BLUE, #2e2f42);
     list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
-.link-ii:hover, .link-ii:active{
+.link:hover, .link:active{
     background-color: var(--OCEAN, #404BBF);
 }
 
-.link-iii{
+.link-ii{
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 500;
@@ -95,10 +96,6 @@ background-color: var(--OCEAN, #404BBF);
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.link-iii:hover, .link-iii:active{
-    background-color: var(--OCEAN, #404bbf);
-}
-
 
 .sec-i{
     background-color: var(--NAVY-BLUE, #2e2f42);
