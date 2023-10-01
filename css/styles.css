@@ -26,8 +26,8 @@ cursor:pointer;
 
 .button:hover
 .button:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(#FFFFFF);
+    background-color: var(#404BBF);
 }
 
 .button-ii{
@@ -43,7 +43,7 @@ cursor:pointer;
 
 .buttonII:hover
 .buttonII:focus{
-    background-color: #404BBF;
+    background-color: var(#404BBF);
 }
 
 .list{
@@ -87,7 +87,7 @@ cursor:pointer;
 
 .link-i:hover,
 .link-i:focus{
-    background-color: #404BBF;
+    background-color: var(#404BBF);
 }
 
 .link-ii{
@@ -99,7 +99,7 @@ cursor:pointer;
 
 .link-ii:hover,
 .link-ii:focus{
-    background-color: #404BBF;
+    background-color: var(#404BBF);
 }
 
 .sec-i{
