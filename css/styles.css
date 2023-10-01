@@ -93,11 +93,11 @@ cursor:pointer;
 }
 
 .link-i:hover{
-    background-color: var(--OCEAN, #404BBF);
+    color: var(--OCEAN, #404BBF);
 }
 
 .link-i:focus{
-    background-color: var(--OCEAN, #404BBF);
+    color: var(--OCEAN, #404BBF);
 }
 
 .link-ii{
@@ -108,11 +108,11 @@ cursor:pointer;
 }
 
 .link-ii:hover{
-    background-color: var(--OCEAN, #404BBF);
+    color: var(--OCEAN, #404BBF);
 }
 
 .link-ii:focus{
-    background-color: var(--OCEAN, #404BBF);
+    color: var(--OCEAN, #404BBF);
 }
 
 .sec-i{
