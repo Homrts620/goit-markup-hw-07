@@ -45,11 +45,11 @@ cursor:pointer;
     cursor:pointer;
     }
 
-.buttonii:hover{
+.button-ii:hover{
     background-color: var(--OCEAN, #404BBF);
 }
 
-.buttonii:focus{
+.button-ii:focus{
     background-color: var(--OCEAN, #404BBF);
 }
 
