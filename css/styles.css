@@ -186,3 +186,30 @@ cursor:pointer;
 .color-ii{
     background-color: #F4F4FD;
 }
+
+.container{
+    width: 1158px;
+}
+
+.section{
+
+}
+
+.margin{
+
+}
+
+.line1{
+    display:flex;
+    justify-content:space-around;
+}
+
+.line2{
+    display:flex;
+    justify-content:space-between;
+}
+
+.line3{
+    display:flex;
+    justify-content:flex-end;
+}
