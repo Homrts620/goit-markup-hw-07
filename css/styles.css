@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 :root{
     --SLATE: #434455; 
     --NAVY-BLUE: #2E2F42;
