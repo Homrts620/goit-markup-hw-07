@@ -202,22 +202,26 @@ cursor:pointer;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.block1{
+.blockI{
+    display: flex;
+}
+
+.block-I{
     display: flex;
     align-items: center;
 }
 
-.block2{
+.block-II{
     margin-right: 76px;
 }
 
-.block3{
+.block-III{
     display: flex;
     gap: 40px;
     margin-right: 40px;
 }
 
-.block4{
+.block-IV{
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -227,11 +231,11 @@ cursor:pointer;
     padding-bottom: 188px;
 }
 
-.style1{
+.style-I{
     max-width: 496px;
 }
 
-.style2{
+.style-II{
     display: block;
     min-width: 169px;
     height: 56px;
@@ -264,15 +268,15 @@ cursor:pointer;
     margin-bottom: 8px;
 }
 
-.sec1{
+.secI{
     padding-bottom: 120px;
 }
 
-.sec2{
+.sec-II{
     margin-bottom: 72px;
 }
 
-.sec3{
+.sec-III{
     display:flex;
     gap: 24px;
 }
@@ -309,7 +313,7 @@ cursor:pointer;
     margin-bottom: 16px;
 }
 
-.footer2{
+.footerII{
     max-width: 264px;
 }
 
