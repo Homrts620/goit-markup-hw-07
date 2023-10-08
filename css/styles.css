@@ -202,26 +202,26 @@ cursor:pointer;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.blockI{
+.blocki{
     display: flex;
 }
 
-.block-I{
+.block-i{
     display: flex;
     align-items: center;
 }
 
-.block-II{
+.block-ii{
     margin-right: 76px;
 }
 
-.block-III{
+.block-iii{
     display: flex;
     gap: 40px;
     margin-right: 40px;
 }
 
-.block-IV{
+.block-iv{
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -231,11 +231,11 @@ cursor:pointer;
     padding-bottom: 188px;
 }
 
-.style-I{
+.style-i{
     max-width: 496px;
 }
 
-.style-II{
+.style-ii{
     display: block;
     min-width: 169px;
     height: 56px;
@@ -268,29 +268,29 @@ cursor:pointer;
     margin-bottom: 8px;
 }
 
-.secI{
+.seci{
     padding-bottom: 120px;
 }
 
-.sec-II{
+.sec-ii{
     margin-bottom: 72px;
 }
 
-.sec-III{
+.sec-iii{
     display:flex;
     gap: 24px;
 }
 
-.sec4{
+.sec-iv{
     width: calc((100% - 48px) / 3);
 }
 
-.sec5{
+.sec-v{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
-.sec6{
+.sec-vi{
     padding: 32px 0px
 }
 
@@ -313,7 +313,7 @@ cursor:pointer;
     margin-bottom: 16px;
 }
 
-.footerII{
+.footerii{
     max-width: 264px;
 }
 
@@ -322,7 +322,7 @@ cursor:pointer;
     padding-bottom: 120px;
 }
 
-.main2{
+.mainii{
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -330,21 +330,21 @@ cursor:pointer;
     margin-bottom: 72px;
 }
 
-.button2{
+.button-v{
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
 }
 
-.button2:hover{
+.button-v:hover{
     border: 1px solid transparent;
 }
 
-.button2:focus{
+.button-v:focus{
     border: 1px solid transparent;
 }
 
-.secI{
+.seci{
     display: flex;
     flex-wrap: wrap;
     margin-right: 24px;
@@ -356,7 +356,7 @@ cursor:pointer;
     margin-bottom: 0;
 }
 
-.list-item2:last-child{
+.list-itemii:last-child{
     margin-right: 0;
 }
 
