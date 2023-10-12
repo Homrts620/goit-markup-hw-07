@@ -44,9 +44,11 @@ cursor:pointer;
 
 .button-ii{
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    margin: 0 auto;
     letter-spacing: 0.04em;
     background-color: var(--IRIS, #4d5ae5);
     color: var(--WHITE, #ffffff);
@@ -145,9 +147,11 @@ cursor:pointer;
 .head-i{
     color: var(--WHITE, #ffffff);
     background-color: var(--NAVY-BLUE, #2e2f42);
+    text-align: center;
+    max-width: 496px;
+    margin: 0 auto;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
 }
 
@@ -175,6 +179,10 @@ cursor:pointer;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.text-height{
+    height: 72px;
 }
 
 .foot{
@@ -235,10 +243,6 @@ cursor:pointer;
     padding-bottom: 188px;
 }
 
-.style-i{
-    max-width: 496px;
-}
-
 .style-ii{
     display: block;
     min-width: 169px;
@@ -251,6 +255,10 @@ cursor:pointer;
 
 .stylei{
     padding-top: 120px; 
+    padding-bottom: 120px;
+}
+
+.styll{
     padding-bottom: 120px;
 }
 
