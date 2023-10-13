@@ -22,14 +22,14 @@ img{
 }
 
 .button{
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--IRIS, #4d5ae5);
-background-color: var(--CLOUD, #f4f4fd);
-cursor:pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--IRIS, #4d5ae5);
+    background-color: var(--CLOUD, #f4f4fd);
+    cursor:pointer;
 }
 
 .button:hover{
@@ -126,7 +126,14 @@ cursor:pointer;
 }
 
 .sec-i{
-    background-color: var(--NAVY-BLUE, #2e2f42);
+    display: flex;
+    padding:188px 0;
+    margin: 0 auto;
+    background-image: url(/images/background.jpg);
+    max-width: 1440px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
 }
 
 .span{
@@ -146,7 +153,6 @@ cursor:pointer;
 
 .head-i{
     color: var(--WHITE, #ffffff);
-    background-color: var(--NAVY-BLUE, #2e2f42);
     text-align: center;
     max-width: 496px;
     margin: 0 auto;
@@ -241,6 +247,11 @@ cursor:pointer;
 .style{
     padding-top: 188px;
     padding-bottom: 188px;
+}
+
+.style-i{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .style-ii{
@@ -382,4 +393,24 @@ cursor:pointer;
 
 .conti{
     margin-bottom: 8px;
+}
+
+.sec-v > svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.wector{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    gap: 24px;
+}
+
+.wectori{
+    display: flex;
+    align-items: center;
+    width: 264px;
+    height: 428px;  
 }
