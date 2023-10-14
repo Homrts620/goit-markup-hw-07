@@ -404,7 +404,6 @@ img{
 .wector{
     display: flex;
     justify-content: center;
-    margin-top: 8px;
     gap: 24px;
 }
 
@@ -413,4 +412,56 @@ img{
     align-items: center;
     width: 264px;
     height: 428px;  
+}
+
+.wector-back{
+    background-color:#F4F4FD;
+}
+
+.wec-wec{
+    display: flex;
+    align-items: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.style-iii{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.padding{
+    padding-bottom: 100px;
+}
+
+.text{
+    font-family: "Roboto" , "sans-serif";
+    color: var(--WHITE);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.eclipse{
+    background-color: var(--IRIS);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon{
+    align-items: center;
+    justify-content: center;
+}
+
+.start{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
 }
