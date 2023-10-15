@@ -39,7 +39,7 @@ img{
     background-color: var(--OCEAN, #404BBF);
 }
 
-.button:focus{
+.button:active{
     color: var(--WHITE, #FFFFFF);
     background-color: var(--OCEAN, #404BBF);
 }
@@ -61,7 +61,7 @@ img{
     background-color: #404BBF;
 }
 
-.button-ii:focus{
+.button-ii:active{
     background-color: #404BBF;
 }
 
@@ -108,7 +108,7 @@ img{
     color: var(--OCEAN, #404BBF);
 }
 
-.link-i:focus{
+.link-i:active{
     color: var(--OCEAN, #404BBF);
 }
 
@@ -123,7 +123,7 @@ img{
     color: var(--OCEAN, #404BBF);
 }
 
-.link-ii:focus{
+.link-ii:active{
     color: var(--OCEAN, #404BBF);
 }
 
@@ -589,3 +589,8 @@ img{
 .svg{
     fill: currentcolor;
 }
+
+.svgi{
+    fill: #f4f4fd;
+}
+
