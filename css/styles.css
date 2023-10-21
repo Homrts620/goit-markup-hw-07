@@ -698,22 +698,22 @@ img{
 }
 
 .link-colori{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-colorii{
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-back{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: cubic-bezier(0.4, 0, 0.2, 1);
+    border-color: cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card{
-    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card:hover{
@@ -746,6 +746,6 @@ img{
     height: 100%;
     width: 100%;
     transform: translateY(100%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1);
 
 }
