@@ -102,7 +102,6 @@ img{
 }
 
 .link-i{
-    position: relative;
     color: var(--NAVY-BLUE, #2e2f42);
     font-weight: 500;
     font-size: 16px;
@@ -120,7 +119,6 @@ img{
 }
 
 .link-ii{
-    position: relative;
     color: var(--SLATE, #434455);
     font-size: 16px;
     line-height: 1.5;
