@@ -684,7 +684,10 @@ img{
     position: relative;
     color: #404bbf;
     transition: color 250ms cubic-bezier(0.4,0,0.2,1);
+}
 
+.class-color{
+    transition: color 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
 .class::after{
@@ -702,11 +705,12 @@ img{
 }
 
 .link-colori{
-    transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-colorii{
-    transition: border-color cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-back{
@@ -717,14 +721,14 @@ img{
 }
 
 .card{
-    transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card:hover .p-iv{
     transform: translateY(0%);
 }
 
-.card:focus .p-iv{
+.card:active .p-iv{
     transform: translateY(0%);
 }
 
