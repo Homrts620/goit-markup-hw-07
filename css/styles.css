@@ -245,6 +245,7 @@ img{
 .block-i{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .block-ii{
@@ -254,7 +255,6 @@ img{
 .block-iii{
     display: flex;
     gap: 40px;
-    margin-right: 40px;
 }
 
 .block-iv{
