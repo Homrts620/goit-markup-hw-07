@@ -930,7 +930,7 @@ margin-bottom: 48px;
 }
 
 .svg-frame{
-
+    fill: #f4f4f4;
 }
 
 .svg-frame:checked{
