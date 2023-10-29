@@ -933,7 +933,9 @@ margin-bottom: 48px;
     fill: #f4f4f4;
 }
 
-.svg-frame:checked{
+.test{}
+
+.test:checked + .user-privacy span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
