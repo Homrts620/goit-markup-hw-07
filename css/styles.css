@@ -859,7 +859,7 @@ margin-bottom: 48px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input use .svg-form:active{
+.form-name .svg-form:focus{
     fill: #4D5AE5;
 }
 
@@ -941,7 +941,7 @@ input use .svg-form:active{
     color: #8e8f99;
 }
 
-span .span-input:checked{
+.user-privacy:checked .span-input:checked{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
