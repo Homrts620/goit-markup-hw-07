@@ -207,8 +207,9 @@ img{
 
 .foot-ii{
     color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.32px;
 }
 
 .color{
@@ -367,7 +368,7 @@ margin-bottom: 48px;
 }
 
 .footerii{
-    max-width: 264px;
+    width: 264px;
 }
 
 .main{
@@ -637,6 +638,7 @@ margin-bottom: 48px;
     position: absolute;
     align-items: center;
     justify-content: center;
+    padding: 72px 24px 24px 24px;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%) scale(1);
@@ -647,6 +649,8 @@ margin-bottom: 48px;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-div:focus-within {  fill: #4D5AE5; }
 
 .button-modal{
     position: absolute;
@@ -765,7 +769,6 @@ margin-bottom: 48px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
 }
 
 .form-name{
@@ -941,8 +944,8 @@ margin-bottom: 48px;
     color: #8e8f99;
 }
 
-.user-privacy:checked span .span-input:checked{
-    background-color: #404bbf;
+#user-privacy:checked + .span-input {
+    background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
 }
@@ -971,8 +974,4 @@ margin-bottom: 48px;
     align-items: flex-start;
     gap: 8px;
     border-radius: 4px;
-}
-
-.modal-padd{
-    padding: 72px 24px 24px 24px;
 }
