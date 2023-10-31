@@ -859,7 +859,7 @@ margin-bottom: 48px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-form:active{
+input use .svg-form:active{
     fill: #4D5AE5;
 }
 
@@ -941,7 +941,7 @@ margin-bottom: 48px;
     color: #8e8f99;
 }
 
-input .visually-hidden:checked + label .user-privacy span{
+span .span-input:checked{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
