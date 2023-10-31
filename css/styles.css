@@ -207,6 +207,7 @@ img{
 
 .foot-ii{
     color: var(--CLOUD, #F4F4FD);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -843,6 +844,10 @@ margin-bottom: 48px;
     color: #4d5ae5;
 }
 
+.link-a{
+    color: #4d5ae5;
+}
+
 .send{
     display: inline-flex;
     align-items: center;
@@ -945,7 +950,9 @@ margin-bottom: 48px;
     color: #8e8f99;
 }
 
-#user-privacy:checked + .span-input {
+.box-i{}
+
+.box-i:checked + .user-privacy + .span-input {
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
