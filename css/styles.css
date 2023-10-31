@@ -845,6 +845,9 @@ margin-bottom: 48px;
 }
 
 .link-a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: #4d5ae5;
 }
 
