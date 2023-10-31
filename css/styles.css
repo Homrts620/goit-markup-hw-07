@@ -941,7 +941,7 @@ margin-bottom: 48px;
     color: #8e8f99;
 }
 
-.user-privacy:checked .span-input:checked{
+.user-privacy:checked span .span-input:checked{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
