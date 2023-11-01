@@ -765,8 +765,8 @@ margin-bottom: 48px;
 .form{
     position: absolute;
     text-align: center;
-    margin-bottom: 16px;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -988,5 +988,5 @@ margin-bottom: 48px;
     align-items: flex-start;
     gap: 8px;
     border-radius: 4px;
-    margin-top: 40px;
+    margin-top: 16px;
 }
