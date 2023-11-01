@@ -763,7 +763,6 @@ margin-bottom: 48px;
 }
 
 .form{
-    position: absolute;
     text-align: center;
     color: var(--NAVY-BLUE, #2E2F42);
     margin-bottom: 16px;
@@ -836,6 +835,7 @@ margin-bottom: 48px;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -849,6 +849,7 @@ margin-bottom: 48px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-left: 8px;
     color: #4d5ae5;
 }
 
