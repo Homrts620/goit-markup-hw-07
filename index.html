@@ -22,7 +22,7 @@
 </head>
 
 <body>
-<header class="block box">
+<header class="block box page-header">
     <div class="container blocki gap">
     <nav class="block-i text-height">
         <a class="logo link block-ii" href="/">Web<span class="span">Studio</span></a>
@@ -41,9 +41,15 @@
             <li><a class="link-ii link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link-ii link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu js-open-menu">
+            <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+        </svg></button>
     </div>
+
     </address> 
 </div>
+
 </header>
 
 <main>
@@ -368,8 +374,62 @@
 </div>
 </div>
 
-
 <script src="./js/modal.js"></script>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="button-modal js-close-menu" type="button"><svg class="svg-modal" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg></button>
+    <ul class="mobile-menu">
+        <li>
+            <a class="write block-iv color-col" href="./index.html">Studio</a></li>
+        <li>
+            <a class="write link block-iv" href="./portfolio.html">Portfolio</a></li>
+        <li>
+            <a class="write link block-iv" href="">Contacts</a></li>
+    </ul>
+    
+    <ul class="padd-mob">
+        <li><a class="link-mobile link color-colii" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <li><a class="link-mobii link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+    </ul>
+
+
+        <ul class="foot-mobile list pad-mobileii">
+        <li class="social">
+        <a href="" class="social-social link-colori"> <svg class="svgi" width="24" height="24">
+        <use href="./images/icons.svg#icon-instagram"></use>
+        </svg>
+    </a>
+    </li>
+    
+    <li class="social">
+        <a href="" class="social-social link-colori"> <svg class="svgi" width="24" height="24">
+        <use href="./images/icons.svg#icon-facebook"></use>
+        </svg>
+    </a>
+    </li>
+
+    <li class="social">
+        <a href="" class="social-social link-colori"> <svg class="svgi" width="24" height="24">
+        <use href="./images/icons.svg#icon-twitter"></use>
+        </svg>
+        </a>
+    </li>
+
+    <li class="social">
+        <a href="" class="social-social link-colori"> <svg class="svgi" width="24" height="24">
+        <use href="./images/icons.svg#icon-linkedin"></use>
+        </svg>
+    </a>
+    </li>
+    </ul>
+    </div>
+
+<script
+defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+crossorigin="anonymous"></script>
+<script defer src="./js/mobile-menu.js"></script>
+
 </body>
 
 </html>
