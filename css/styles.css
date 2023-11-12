@@ -1169,14 +1169,86 @@ img{
     margin-top: 48px;
 }
 
-@media screen and(max-width: 428px){
+@media screen and (max-width: 427px){
 
-    .container{
-        width: 428px;
-    }
+.container{
+    width: 320px;
+}
+
+.viv{
+    align-items: center;
+}
 
 .viiv{
-    gap: 249px;
+    gap: 70px;
+}
+
+.vvi{
+    display: none;
+}
+
+.block-iii{
+    display: none;
+}
+
+.list-iii{
+    display: none;
+}
+
+.gap{
+    display: flex;
+    align-items: flex-start;
+}
+
+.wec-wec{
+    display: none;
+}
+
+.styleiii{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.point{
+    width: calc((100% - 24px) / 2); 
+    align-items: center;
+}
+
+.footer-partii{
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.vvv{
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-label{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-sub{
+    display: flex;
+    height: 40px;
+}
+
+}
+
+
+
+@media screen and (min-width: 428px) and (max-width: 767px){
+
+.menu-toggle{
+    display: none;
 }
 
 .modal-class{
@@ -1184,15 +1256,8 @@ img{
     width: 392px;
 }
 
-}
-
-
-@media screen and (max-width: 767px){
-
-
-.modal-class{
-    position: absolute;
-    width: 392px;
+.viv{
+    align-items: center;
 }
 
 .logo{
@@ -1204,6 +1269,7 @@ img{
 
 .viiv{
     margin-bottom: 22px;
+    gap: 249px;
 }
 
 .block-i{
@@ -1275,10 +1341,6 @@ img{
     column-gap: 96px;
 }
 
-.viiv{
-    gap: 249px;
-}
-
 .vvv{
     margin-left: 155px;
 }
@@ -1321,15 +1383,11 @@ img{
 }
 
 .block-ii{
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 .block-iv{
-    margin-right: 40px;
-}
-
-.viv{
-    margin-right: 24px;
+    margin-right: 20px;
 }
 
 .logo{
@@ -1394,13 +1452,15 @@ img{
     padding-left: 108px;
 }
 
-.menu-toggle{
-    display: none;
-}
 
 }
 
 @media screen and (min-width: 1158px) {
+
+.viv{
+    align-items: center;
+    margin: 0 auto;
+}
 
     .button{
         font-family: 'Roboto', sans-serif;
@@ -1482,6 +1542,22 @@ img{
         margin: 0 auto;
         background-position: center;
         background-size: cover;
+    }
+
+    @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .sec-i{
+            display: flex;
+            padding:188px 0;
+            margin: 0 auto;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background@2x.jpg);
+            background-repeat: no-repeat;
+            max-width: 1440px;
+            margin: 0 auto;
+            background-position: center;
+            background-size: cover;
+        }
     }
     
     .span{
@@ -1905,10 +1981,6 @@ img{
     
     .footer-partii{
         margin-right: 120px;
-    }
-
-    .viv{
-        margin-right: 80px;
     }
     
     .footer-partiii{
