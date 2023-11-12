@@ -1268,10 +1268,6 @@ img{
 
 @media screen and (min-width: 428px) and (max-width: 767px){
 
-.menu-toggle{
-    display: none;
-}
-
 .modal-class{
     position: absolute;
     width: 392px;
@@ -1732,6 +1728,7 @@ img{
     }
     
     .styll{
+        content-visibility: visible;
         padding-bottom: 120px;
     }
     
